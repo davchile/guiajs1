@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background: #000;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70px;
+    grid-area: header;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding-left: 1rem;
+}
+
+header i {
+    padding: 5px;
+}
+
+.menu-right li {
+    padding: 10px;
+}
+
+.menu-right a {
+    text-decoration: none;
+}
+
+nav {
+    height: 720px;
+    background-size: cover;
+    background-position: center;
+}
