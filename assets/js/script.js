@@ -25,13 +25,19 @@
 // imagenPrincipal.classList.add("radius")
 // imagenPrincipal.classList.toggle("radius")
 
-const btn=document.querySelector(".btn-radius") //declaro el boton
-const imagenPrincipal = document.querySelector("img") //declaro la imagen
+const btn = document.querySelector(".btn") //declaro el boton
+// const imagenPrincipal = document.querySelector("img") //declaro la imagen
 // const title=document.querySelector(".title-iguana")
+const result = document.querySelector("#result")
+const input1 = document.querySelector("#num1")
+const input2 = document.querySelector("#num2")
 
-btn.addEventListener("click", ()=> {            //instruyo al botón para que ejecute la acción
-    imagenPrincipal.classList.toggle("radius")
-    // title.style.color="#ff0000"    
+// btn.addEventListener("click", ()=> {            //instruyo al botón para que ejecute la acción
+//     imagenPrincipal.classList.toggle("radius")
+//     // title.style.color="#ff0000"    
+// })
+
+btn.addEventListener("click", () => {            //instruyo al botón para que ejecute la acción
+    const op = Number(num1.value) + Number(num2.value)
+    result.innerHTML = op
 })
-
-
