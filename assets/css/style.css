@@ -42,3 +42,7 @@ nav {
     background-size: cover;
     background-position: center;
 }
+
+.radius {
+    border-radius: 50%;
+}

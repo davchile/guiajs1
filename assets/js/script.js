@@ -16,6 +16,22 @@
 // parrafo.style.fontStyle="italic"
 
 // imagenradius = document.querySelector("img")
-estilo = prompt("Ingresa el valor del border-radius deseado")
-const styleImg = document.querySelector("img")
-styleImg.style.borderRadius = estilo
+// estilo = prompt("Ingresa el valor del border-radius deseado")
+// const styleImg = document.querySelector("img")
+// styleImg.style.borderRadius = estilo
+
+// const imagenPrincipal = document.querySelector("img")
+// imagenPrincipal.style.borderRadius = "50%"
+// imagenPrincipal.classList.add("radius")
+// imagenPrincipal.classList.toggle("radius")
+
+const btn=document.querySelector(".btn-radius") //declaro el boton
+const imagenPrincipal = document.querySelector("img") //declaro la imagen
+// const title=document.querySelector(".title-iguana")
+
+btn.addEventListener("click", ()=> {            //instruyo al botón para que ejecute la acción
+    imagenPrincipal.classList.toggle("radius")
+    // title.style.color="#ff0000"    
+})
+
+
